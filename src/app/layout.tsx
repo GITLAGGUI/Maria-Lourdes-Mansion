@@ -24,7 +24,7 @@ export const metadata: Metadata = {
     address: false,
     telephone: false,
   },
-  metadataBase: new URL(process.env.NEXT_PUBLIC_BASE_URL || 'https://marialourdes.com'),
+  metadataBase: new URL(process.env.NEXT_PUBLIC_BASE_URL || 'https://Isabela.netlify.app'),
   alternates: {
     canonical: '/',
   },
@@ -35,7 +35,7 @@ export const metadata: Metadata = {
     siteName: 'Maria Lourdes Mansion',
     images: [
       {
-        url: '/images/og-image.jpg',
+        url: '/assets/Logo-domain.png',
         width: 1200,
         height: 630,
         alt: 'Maria Lourdes Mansion - Luxury Hotel',
@@ -48,7 +48,7 @@ export const metadata: Metadata = {
     card: 'summary_large_image',
     title: 'Maria Lourdes Mansion - Luxury Hospitality',
     description: 'Experience unparalleled luxury at Maria Lourdes Mansion.',
-    images: ['/images/twitter-image.jpg'],
+    images: ['/assets/Logo-domain.png'],
   },
   robots: {
     index: true,
@@ -100,10 +100,10 @@ export default function RootLayout({
     <html lang="en">
       <head>
         {/* PWA Icons */}
-        <link rel="icon" href="/favicon.ico" sizes="any" />
-        <link rel="icon" href="/icons/icon.svg" type="image/svg+xml" />
-        <link rel="apple-touch-icon" href="/icons/apple-touch-icon.png" />
-        <link rel="apple-touch-icon" sizes="180x180" href="/icons/apple-touch-icon.png" />
+        <link rel="icon" href="/assets/Logo-domain.png" sizes="any" />
+        <link rel="icon" href="/assets/Logo-domain.png" type="image/png" />
+        <link rel="apple-touch-icon" href="/assets/Logo-domain.png" />
+        <link rel="apple-touch-icon" sizes="180x180" href="/assets/Logo-domain.png" />
         
         {/* PWA Manifest */}
         <link rel="manifest" href="/manifest.json" />
@@ -114,7 +114,7 @@ export default function RootLayout({
         <meta name="apple-mobile-web-app-title" content="ML Mansion" />
         
         {/* Microsoft PWA Meta Tags */}
-        <meta name="msapplication-TileImage" content="/icons/icon-144x144.png" />
+        <meta name="msapplication-TileImage" content="/assets/Logo-domain.png" />
         <meta name="msapplication-TileColor" content="#3b82f6" />
         
         {/* Preconnect to external domains for performance */}
