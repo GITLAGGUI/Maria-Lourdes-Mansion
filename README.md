@@ -197,7 +197,7 @@ The website includes built-in performance monitoring that tracks:
 - **LinkedIn**: [https://www.linkedin.com/in/joel-laggui-801104369/](https://www.linkedin.com/in/joel-laggui-801104369/)
 - **Facebook**: [https://www.facebook.com/joellagguijr](https://www.facebook.com/joellagguijr)
 - **Instagram**: [https://www.instagram.com/jlaggui.jr/](https://www.instagram.com/jlaggui.jr/)
-- **WhatsApp**: +63 915 368 3496
+- **WhatsApp**: [+63 915 368 3496](https://api.whatsapp.com/send/?phone=639153683496&text&type=phone_number&app_absent=0)
 
 For technical support, feature requests, or project inquiries, please reach out through any of the above channels.
 
